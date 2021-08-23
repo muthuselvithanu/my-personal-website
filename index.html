@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <div class="navbar">
+    <div class="menubar">
+      <a class="openBtn" onclick="openNav()"> <i class="fa fa-bars"></i>Menu</a>
+    </div>
+    <div class="nav-items" id="topnav">
+      <a href="javascript:void(0);" class="closebtn" onclick="closeNav()">x</a>
+      <a href="#about" onclick="closeNav()">About</a>
+      <a href="#skills" onclick="closeNav()">Skills</a>
+      <a href="#certifications" onclick="closeNav()">Certifications</a>
+      <a href="#projects" onclick="closeNav()">Projects</a>
+    </div>
+  </div>
+  <div class="main" id="home">
+    <div class="intro">
+      <div class="bannercontainer">
+        <div class="banner">
+          <div class="imgbanner">
+            <div class="mySlides">
+              <img class="fullbanner" src="./img/banner/banner1.jpg">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="content">
+      <div id="about" class="section">
+        <div class="about-title">
+          <h2>About</h2>
+        </div>
+        <div class="section-row">
+          <div class="about-content">
+            <p>
+              I am a housewife and mother of eight old girl. Getting to IT sector is something I always wanted to do. For the past one year, I have been learning different technologies with my husband’s help and guidance. Now I am ready to pursue my dreams. I learned different technologies and got certified to prove that I can take up any work, learn and research about it and get it done. Given an opportunity, I am confident that I will work hard and shine well.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div id="skills" class="section">
+        <div class="skills-title">
+          <h2>Skills</h2>
+        </div>
+        <div class="section-row">
+          <div class="col">
+            <h3>Core</h3>
+            <div class="row">
+              <div class="circle">
+                <img src="./img/skills/HTML5.svg" title="HTML5" class="logo">
+              </div>
+              <div class="circle">
+                <img src="./img/skills/css3.svg" title="CSS3" class="logo">
+              </div>
+              <div class="circle">
+                <img src="./img/skills/javascript-icon.svg" title="JAVASCRIPT" class="logo">
+              </div>
+            </div>
+          </div>
+          <div class="border">
+          </div>
+          <div class="col">
+            <h3>Novice</h3>
+            <div class="row">
+              <div class="circle">
+                <img src="./img/skills/jquery-icon.svg" title="JQUERY" class="logo">
+              </div>
+              <div class="circle">
+                <img src="./img/skills/nodejs-logo.png" title="NODE JS" class="logo">
+              </div>
+              <div class="circle">
+                <img src="./img/skills/expressjs-icon.svg" title="EXPRESS JS" class="logo">
+              </div>
+              <div class="circle">
+                <img src="./img/skills/ejs_icon_132422.png" title="EMBEDDED JAVASCRIPT" class="logo">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="certifications" class="section">
+        <div class="cert-title">
+          <h2>Certifications</h2>
+        </div>
+        <div class="section-row">
+          <div class="card">
+            <a href="./img/certifications/Azure Fundamentals.pdf" target="_blank">
+              <img border="0" alt="Azure" src="./img/certifications/azure.png" width="150" height="150">
+            </a>
+          </div>
+          <div class="card">
+            <a href="./img/certifications/Programming Using HTML and CSS.pdf" target="_blank">
+              <img border="0" alt="MTA-HTML-CSS" src="./img/certifications/MTA-HTML-CSS.png" width="150" height="150">
+            </a>
+          </div>
+          <div class="card">
+            <a href="./img/certifications/Programming Using JS.pdf" target="_blank">
+              <img border="0" alt="MTA-JS" src="./img/certifications/MTA-JS.png" width="150" height="150">
+            </a>
+          </div>
+          <div class="card">
+            <a>
+              <img border="0" alt="" src="./img/certifications/HTML5-JS-Css3.png" width="150" height="150">
+            </a>
+          </div>
+          <div class="card">
+            <a href="https://www.credly.com/badges/032bbda4-377d-489f-b2af-83d5cd280017/linked_in" target="_blank">
+              <img border="0" alt="" src="./img/certifications/AWS-CloudPractitioner-2020.png" width="150" height="150">
+            </a>
+          </div>
+        </div>
+      </div>
+      <div id="projects" class="section">
+        <div class="projects-title">
+          <h2>Projects</h2>
+        </div>
+        <div class="section-row">
+          <a class="pjt-link" href="https://github.com/muthuselvithanu/RGB-Game" target="_blank">
+            <div class="card container">
+              <div>RGB-Game</div>
+              <img src="./img/projects/rgb.gif" class="pjt-img">
+              <div class="overlay">
+                <div class="text">RGB color Guessing Game</div>
+              </div>
+            </div>
+          </a>
+          <a class="pjt-link" href="https://github.com/muthuselvithanu/ToDolist" target="_blank">
+            <div class="card container">
+              <div>Todo-List</div>
+              <img src="./img/projects/todoList.gif" class="pjt-img">
+              <div class="overlay">
+                <div class="text">Todo-List</div>
+              </div>
+            </div>
+          </a>
+          <a class="pjt-link" href="https://github.com/muthuselvithanu/Patatap-Clone" target="_blank">
+            <div class="card container">
+              <div>Patatap-Clone</div>
+              <img src="./img/projects/patatap.gif" class="pjt-img">
+              <div class="overlay">
+                <div class="text">Patatap-Clone</div>
+              </div>
+            </div>
+          </a>
+          <a class="pjt-link" href="https://github.com/muthuselvithanu/CodingChallenges" target="_blank">
+            <div class="card container">
+              <div>CodingChallenges</div>
+              <img src="./img/projects/codingChallenge.gif" class="pjt-img">
+              <div class="overlay">
+                <div class="text">CodingChallenges</div>
+              </div>
+            </div>
+          </a>
+          <a class="pjt-link" href="https://github.com/muthuselvithanu/covidDashboard" target="_blank">
+            <div class="card container">
+              <div>covidDashboard</div>
+              <img src="./img/projects/covidDashboard.gif" class="pjt-img">
+              <div class="overlay">
+                <div class="text">covidDashboard</div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="contact">
+    <a href="https://www.linkedin.com/in/muthuselvi-thanu-03a792177" target="_blank">
+      <span class="fa fa-linkedin contactlist">
+    </a>
+    <a href="https://github.com/muthuselvithanu" target="_blank">
+      <span class="fa fa-github contactlist">
+    </a>
+    <a href="MuthuselviThanu.pdf" target="_blank">
+      <span class="fa fa-file contactlist">
+    </a>
+    <a href="mailto:muthuselvithanu@gmail.com" target="_blank">
+      <span class="fa fa-envelope-o contactlist">
+    </a>
+  </div>
+
+  <script>
+    function openNav() {
+      document.getElementById("topnav").style.display = "block";
+    }
+    function closeNav() {
+      if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+        // true for mobile device
+        document.getElementById("topnav").style.display = "none";
+      }
+    }
+  </script>
+</body>
+
+</html>
